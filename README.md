@@ -3,9 +3,12 @@
 Tool for remapping references from one book layout to another. Run with
 --example to generate an configuration file.
 
+Written in Python 3.7, not tested on Python 2.x.
+
+Depends on the ruamel.yaml package. You will need to ``pip install ruamel.yaml``.
+
 ```
-remap_book.py [-h] [--example] [--flow] file
-```
+usage: remap_book.py [-h] [--example] [--flow] file
 
 positional arguments:
   file           path to yml file describing book to be remapped, result will be written to this file
@@ -14,7 +17,8 @@ optional arguments:
   -h, --help     show this help message and exit
   --example, -e  generate example configuration file
   --flow, -f     output with less readible 'flow' style
-  
+```
+
 ### Example config file
 ```
 sections:
