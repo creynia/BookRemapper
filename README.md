@@ -1,7 +1,7 @@
 # BookRemapper
 
 Tool for remapping references from one book layout to another. Run with
---example to generate an configuration file.
+--example to generate a configuration file.
 
 Written in Python 3.7, not tested on Python 2.x.
 
