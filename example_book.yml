@@ -1,0 +1,15 @@
+sections:
+  Chapter 1:
+    old-first-page: 10
+    new-first-page: 10
+  Chapter 2:
+    old-first-page: 21
+    new-first-page: 23
+  Chapter 3:
+    old-first-page: 28
+    new-first-page: 31
+references:
+  cat:
+    old-pages: [9, 11, 22, 29]
+  dog:
+    old-pages: [2, 15, 50]
